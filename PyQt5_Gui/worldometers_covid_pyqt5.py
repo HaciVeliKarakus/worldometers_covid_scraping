@@ -26,6 +26,7 @@ def scrap_main_page():
     with open("table.html", "w") as f:
         f.write(str(table))
 
+# pip install PyQtWebEngine
 
 class Window(QtWidgets.QMainWindow):
     def __init__(self):
